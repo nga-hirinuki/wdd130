@@ -1,0 +1,88 @@
+
+p {
+    width: 80%;
+    margin: 0 auto;
+}
+
+a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+    }
+a:hover {
+    color: black;
+}
+
+/* {
+    border: 2px solid blue;
+}*/
+
+body {
+    text-align: center;
+    display: block;
+    width: 80%;  
+    margin: 0 auto;
+}
+
+img {
+    width: 15%;
+    display: block;
+    margin: 15px auto;
+    
+}
+ol {
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    width: 40%;
+    margin: 10px auto;
+    text-align: left;
+    font-size: .7em;
+    font-weight: bolder;
+}
+li{
+    margin: 5px auto;
+}
+
+/* classes*/
+
+#head01{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px auto;
+}
+
+#sub01{
+    font-size: 12px;
+    margin: 15px auto;
+    color: white;
+}
+
+#pink{
+    background-color:#F5A6C9;
+    display: block;
+    margin: 50px auto;
+    width: 700px;
+    padding: 5px;
+}
+
+#pres01{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    margin:  15px auto;
+}
+#pres02{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin:  25px auto;
+    width: 40%;
+}
+
+#big01{
+    font-size: 1.7em;
+    width: 30%;
+    color: white;
+}
