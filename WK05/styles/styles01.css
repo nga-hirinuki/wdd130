@@ -1,0 +1,23 @@
+
+#topper,{
+    background-color: #0e7733;
+    margin: 0 auto;
+}
+#main_img{
+    display: block;
+    margin: 0 auto;
+}
+
+.bopper_01{
+    width: 1280px;
+    margin: 0 auto;
+    background-color: rgb(106, 104, 104);
+    box-sizing: 20px;
+}
+.img_holder{
+    border: 10px solid rgb(55, 53, 53);
+    border-radius: 100%;
+    width: 250px;
+    display: inline;
+    margin: 75px;
+}
