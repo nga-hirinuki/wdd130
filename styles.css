@@ -1,0 +1,158 @@
+/* Global CSS*/
+body, h1,h2,h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #fcfbfb;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
+}
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+/* background colors*/
+
+#background {
+    height: 725px;
+    background-color:#EBB9AD;
+}
+
+/* Header CSS*/
+
+header {
+    background-color:#092648;
+}
+#logo_link { 
+    padding-top: 5px;
+}
+.logo{
+    width: 180px;
+    padding: 15px 20px;
+}
+nav a{
+    text-align: center;
+    padding: 35px;
+    text-decoration: none;
+    color: #fcfbfb;
+} 
+nav a:hover {
+    background-color:#E2DFE2;
+    color: #092648;
+    text-decoration: none;
+}
+
+/* Hero section*/
+
+#hero-img{
+    display: block;
+    margin: 0 auto;
+}
+#hero, body{
+    background-color: #fcfbfb; 
+    
+}
+#hero-msg, h1{
+    text-align: center;
+} 
+#hero-msg, h4{
+    text-align: center;
+}  
+.home-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+#button-box{
+    text-align: center;
+    margin: 0 auto;
+} 
+#button-box a{
+    color: #092648;
+    background-color: #d9c2a3;  
+} 
+#button-box a:hover {
+    color: #d9c2a3;
+    background-color: #092648 ;  
+}
+#book{ 
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    text-decoration: none;
+}  
+
+/* Main section*/
+
+.rivers-card, .camping-card, .rapids-card, .mountains {  
+    margin: 200px 0;
+}
+.icon {
+    padding-top: 10px;
+}
+.msg {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #6f7364;
+    line-height: 1.5em;
+    display: block;
+    padding: 35px;    
+}
+.msg p {
+    padding-bottom: 15px;
+}  
+.msg a {
+    color: #092648;
+    background-color: #d9c2a3;
+} 
+.msg a:hover {
+    color: #d9c2a3;
+    background-color: #092648;
+} 
+#join {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px; 
+}
+main section{
+    text-align: center;
+} 
+main section img {
+    box-sizing: border-box;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+
+/* footer colors*/
+
+footer {
+    padding: 25px 50px;
+    margin-top: 200px;
+    background-color:#092648;
+}
+footer a{
+    color: #fcfbfb;
+    text-decoration: none;
+}
+footer a:hover {
+    background-color:#E2DFE2;
+    color: #092648;
+    text-decoration: none;
+}
+footer .social img {
+    padding-top: 15px;
+}
+
+footer p{
+    color: #fcfbfb;
+    font-size: 1.2em;
+}
