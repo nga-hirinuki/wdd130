@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #grid_container{
+            display: grid;
+            grid-template-columns:1fr 1fr;
+            width: 600px;            
+        }
+        #tart{
+            grid-column: 1/3;
+            grid-row: 1/2;
+            z-index: 1;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif; 
+            font-size: 60px;
+            padding-top: 30px;
+        }
+        #pic{
+            grid-column: 1/2;
+            grid-row: 1/2;
+            width: 300px;
+            
+        }
+        #cherries{
+            grid-column: 2/3;
+            grid-row: 1/2;
+            width: 300px;
+            text-align: center;   
+            color: rgb(129, 1, 1);
+            background-color: rgb(178, 176, 176); 
+            font-family: 'Times New Roman', Times, serif; 
+            font-size: 40px;  
+            padding-top: 200px;
+            margin:  0 auto;
+        }
+
+    </style>
+</head>
+<body>
+    <div id = grid_container>
+        
+        <img id = "pic" src="w06_cherries.png" alt="cherries">
+        
+        <h1  id="tart"> Tart & Sweet </h1>
+        
+        <p id="cherries"> Cherries </p>
+       
+    </div>
+    
+</body>
+</html>
