@@ -9,7 +9,7 @@ a {
 }
 
 * {
-    border: 2px solid blue;
+    border: 2px solid rgb(255, 200, 0);
 }
 
 body {
@@ -28,6 +28,7 @@ img {
     width: 80%;
     display: block;
     margin: 0 auto;
+    
 }
 
 main p {
