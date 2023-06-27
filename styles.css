@@ -56,15 +56,21 @@ nav a:hover {
     grid-template-columns: 1fr 3fr 1fr;
     margin-top: -105px; 
 }
+#hero_content {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -105px; 
+}
 #hero-box {
     grid-column: 1/4;
     grid-row: 1/3;
-    z-index: -1; 
+    z-index: -2; 
 }
 #hero-img{
     display: block;
     margin: 0 auto;
     width: 100%;
+    z-index: -1;
 }
 body{
     background-color: #fcfbfb;     
@@ -318,11 +324,12 @@ footer p{
     margin-top: -200px;
     display: block;
     margin-bottom: 30px;
+    z-index: 1;
 }
 form {
     /* Center the form on the page */
     margin: 0 auto;
-    width: 600px;
+    width: 50%;
     /* Form outline */
     padding: 1em;
     border: 1px solid #ccc;
@@ -356,7 +363,7 @@ form {
     font: 1em sans-serif;
   
     /* Uniform text field size */
-    width: 500px;
+    width: 80%;
     box-sizing: border-box;
   
     /* Match form field borders */
@@ -448,4 +455,36 @@ form {
     footer {
         margin-top: 25px;
     }
+    
+    form {
+        /* Center the form on the page */
+        margin: 0 auto;
+        width: 80%;
+        display: block;  
+    }
+    input,
+    textarea {
+        font: 1em sans-serif;
+        width: 100%;
+        box-sizing: border-box;
+        border: 1px solid #999;
+    }
+    button {
+        display: block;
+        text-align: center;
+    }
+    .button { 
+        padding-left: 0;
+    }
+    #hero_content {
+        display:none;
+    }
+    #main_form {
+        margin: 0 auto;
+        margin-top: 0px;
+        display: block;  
+    }  
+    label {
+        text-align: left;
+    }        
 }
