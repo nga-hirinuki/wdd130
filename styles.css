@@ -148,8 +148,8 @@ body{
     background-color:  #ef4123;  
 } 
 #button-box a:hover {
-    color:#092648;
-    background-color: #d9c2a3 ;  
+    color:white;
+    background-color: #092648 ;  
 }
 #book{ 
     font-size: 18px;
