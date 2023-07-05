@@ -1,0 +1,89 @@
+
+/* body global CSS*/
+body{
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 1em;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 90%;
+}
+#logo_link, nav {
+    border: 2px solid red; 
+}
+/* Header CSS*/
+header {
+    background-color:#092648b8;
+    display: grid;
+    grid-template-columns: 300px auto;  
+}
+#logo_link { 
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center; 
+}
+.logo{
+    width: 200px;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+}
+nav a{
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: none;
+    color: #fcfbfb;
+} 
+nav a:hover {
+    color: #ef4123;
+    text-decoration: none;
+}
+
+/* section CSS*/
+.box{
+    width: 100%;
+    
+    display: block;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+/* footer CSS*/
+footer {
+    padding: 25px 50px;
+    background-color:#092648;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a{
+    color: #fcfbfb;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #ef4123;
+    text-decoration: none;
+}
+footer .social img {
+    padding-top: 15px;
+}
+footer p{
+    color: #fcfbfb;
+    font-size: 1.2em;
+}
+
+/* Homepage CSS*/
+
+#cta-image {
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: top;
+    z-index: -1;
+    height: 600px;
+}
+#cta-block{
+    height :500px ; 
+}
+main{
+    margin: 0 auto;
+    display: block;
+}
