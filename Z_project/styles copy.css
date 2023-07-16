@@ -1,0 +1,129 @@
+
+/* body global CSS*/
+body{
+            font-family: 'Prata', serif;
+            font-family: 'Roboto', sans-serif;   
+            font-size: 1em;
+            margin: 0 auto;
+            padding: 0;
+            max-width: 1024px;
+}
+#logo_link, nav {     
+            padding: 10px;
+}
+/* Header CSS*/
+header {    background-color:#092648;
+            display: grid;
+            grid-template-columns: 300px auto;  
+}
+#logo_link { 
+            padding-top: 5px;
+            justify-self: center;
+            align-self: center; 
+}
+.logo{
+            width: 200px;
+            z-index: 1;
+}
+nav{
+            display:flex;
+            justify-content: space-around;
+}
+nav a{
+            text-align: center;
+            padding-top: 20px;
+            text-decoration: none;
+            color: #fcfbfb;
+} 
+nav a:hover {
+            color: #ef4123;
+            text-decoration: none;
+}
+
+/* Main Section*/
+main { 
+       
+}
+.box-main{
+    overflow: hidden;
+    height: 300px;
+}  
+.box-main h1{
+    margin: -450px 50px 50px 50px ; 
+    background-color: #387FB4;
+    padding: 40px 20px 20px 20px;
+    width:45%;  
+    height: 100px;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 2em;
+}
+#cta-image{
+    display: block;  
+} 
+img{
+    margin: 0 auto;
+    width: 100%; 
+    max-height: max-content;
+    z-index: -1;
+    position: relative;  
+}
+
+.box{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+    grid-auto-rows: auto;
+    grid-gap:20px;
+    border: 2px solid red;
+    padding: 10px 50px 10px 50px;
+    
+    z-index: -1;
+}
+
+.reviews{
+    border: 2px solid red;
+    padding: 20px;
+    line-height: 1.5em;
+    font-size: 0.8em;
+}
+
+
+.reviews-names{
+   font-weight: bold;
+}
+
+.review-face{
+    border-radius: 100%;
+    width: 70px;
+}
+
+
+
+/* footer CSS*/
+footer {
+    padding: 25px 50px;
+    background-color:#092648;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a{
+    color: #fcfbfb;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #ef4123;
+    text-decoration: none;
+}
+footer img {
+    padding-top: 10px;
+}
+footer p{
+    color: #fcfbfb;
+    font-size: .8em;
+}
+.foot_social{
+    background-color: #ef4123;
+    border: 2px soild red;
+}
