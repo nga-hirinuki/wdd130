@@ -141,8 +141,20 @@ to {opacity: 1}
 }
 
 
-/* customer testimonies Section*/
+/* who are we Section*/
 
+#index-about-container{
+        padding:30px 0 0 0 ;
+
+}
+#index-about-text{
+        font-size: 1.7em;
+        text-align: center;
+        color:#2e2e2e;
+
+}
+
+/* customer testimonies Section*/
 
 #customer-text{
        font-size: 3em;
