@@ -143,12 +143,13 @@ to {opacity: 1}
 
 /* customer testimonies Section*/
 
-#customer-container{
-        border:2px solid red
+
+#customer-text{
+       font-size: 3em;
+       font-weight: bold;
+       text-align: center; 
+       color:#ef4123;
 }
-
-
-
 /* Review Section*/
 
 .review-container{
@@ -159,15 +160,16 @@ to {opacity: 1}
         padding: 10px 30px 10px 30px;
         text-align: center;
         z-index: -1;
-
+        margin-top: -30px;
 }
 .reviews{
-        padding: 20px;
+        padding: 20px 20px 0 0;
         line-height: 1.5em;
         font-size: 0.8em;
         border-radius: 10px;
         background-color: #daf2ca;
         text-align: center;
+        margin: 20px 0;
 }
 .reviews p{
         padding: 10px;
@@ -507,30 +509,97 @@ z-index: 1;
             }
 
 
-            @media screen and (max-width: 900px) {
-                #hero, .home-grid{
-                    display: block;
-                    height: auto;
-                }
-                #box01 , .box102, .box103, main{
-                    display: block;
-                    width :100%
-                }
-                nav, footer {
-                    flex-direction: column;
-                }
-                nav a {
-                    display: block;
-                    padding: 15px;
-                }
-                .slideshow-container {
-                        max-width: 100%;
-                        margin: auto;
-                        border-radius: 0 0 10px 10px;
-                        overflow: hidden; 
-                        }
-                #unlock, #customer, #easy{
-                        font-size: 400%;
-                        }
-                
-                }
+@media screen and (max-width: 900px) {
+#hero, .home-grid{
+        display: block;
+        height: auto;
+}
+main{
+        display: block;
+        width :100%
+}
+nav, footer {
+        flex-direction: column;
+}
+nav a {
+        display: block;
+        padding: 15px;
+}
+.slideshow-container {
+        max-width: 100%;
+        margin: auto;
+        border-radius: 0 0 10px 10px;
+        overflow: hidden; 
+        }
+#unlock, #customer, #easy{
+        font-size: 5em;
+        }
+.review-container{
+        display: block;
+        margin: 20px;
+        text-align: center;
+        z-index: -1;
+}
+.advert-index-text {
+        top:23%;
+        font-size: 2.5em;
+        margin: 40px;        
+}
+.advert-index-text01 {
+        top:13%;
+        font-size: 3em; 
+        width: 70%; 
+}
+.index-pack-container{
+        display: block;       
+}
+.index-pack-icon {
+        width: 22%;
+        display: block;
+        margin: 0 auto;
+}
+.review-container{
+        margin-top: -30px;
+}
+.img-text {
+        font-size: 3em;     
+}
+.package01-container{
+        display:inline;
+        margin-bottom: 10px;
+}
+.package01-para, .package01-img{
+        width: 100%;
+}
+.package-container{
+        display: block;
+}
+.package-icon {
+        width: 20%;
+        display: block;
+        margin: 0 auto;
+}
+button{
+        margin-bottom: 20px;
+}
+.advert-package-text{
+        font-size: 2.5em;
+}
+.advert-about-text{
+        font-size: 2.8em;
+}
+.process-container{
+        display: block;        
+}
+.about-process p h4 h1{
+        width: 47%;
+        font-size: 1.5em;
+}
+.process-icon {
+        width: 16%;
+}
+.advert-about-text01{
+        font-size: 1.2em;
+
+}
+}
